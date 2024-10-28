@@ -28,3 +28,20 @@ git clone github.com:jparep/location-optimization.git
 pip install -r requirements.txt
 ```
 3. Ensure you have hte necessary API access if required (City of Chicago API library data)
+
+
+## Usage
+
+1. Run the script to fetch library data and build the optimization model:
+```bash
+python main.py
+```
+
+2. Upon successful execution, the script:
+
+- Fetches and processes the data.
+- Sets up the optimization model.
+- Solves the model to find optimal coffee shop locations.
+- Displays a map using folium with the coffee shops highlighted in red and libraries in default color.
+
+3. View the generated map (displayed directly if using Jupyter, or saved to an HTML file if running as a script).
