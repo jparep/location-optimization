@@ -70,3 +70,8 @@ pip install geopy requests docplex folium
     - Sets up a decision model with docplex to select coffee shop locations that minimize the distance for libraries.
     - Constraints ensure each library is assigned to only one coffee shop and enforce a fixed number of open coffee shops.
 4. Result Visualization: Displays the locations of selected coffee shops and libraries on a folium map with connecting lines.
+
+
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
