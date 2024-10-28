@@ -45,3 +45,18 @@ python main.py
 - Displays a map using folium with the coffee shops highlighted in red and libraries in default color.
 
 3. View the generated map (displayed directly if using Jupyter, or saved to an HTML file if running as a script).
+
+
+## Dependencies
+
+The following Python libraries are required:
+
+- geopy for calculating geographical distances
+- requests for retrieving library data
+- docplex for the optimization model
+- folium for displaying results on a map
+
+Install them with:
+``bash
+pip install geopy requests docplex folium
+```
