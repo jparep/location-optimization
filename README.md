@@ -10,3 +10,8 @@ This project uses Python to optimize the placement of coffee shops based on publ
 - [Dependencies](#dependencies)
 - [How It Works](#how-it-works)
 - [License](#license)
+
+
+## Project Overivew
+
+This project retrieves public libraru data from the City of Chicago, computes the geographical distance between library locations, and uses prescriptive modeling to determine optimal locations for new coffee shops. By minimizing totla distance between libraries and selected coffee shop locations, we ensure that each library has convenient access to at least one coffee shop.
