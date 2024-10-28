@@ -57,6 +57,16 @@ The following Python libraries are required:
 - folium for displaying results on a map
 
 Install them with:
-``bash
+```bash
 pip install geopy requests docplex folium
 ```
+
+
+## How It Works
+
+1. Data Collection: The script fetches public library locations using the Chicago Data Portal API, extracting longitude, latitude, and names.
+2. Distance Calculation: Using geopy, it computes distances between each library and potential coffee shop locations.
+3. Optimization Model:
+    - Sets up a decision model with docplex to select coffee shop locations that minimize the distance for libraries.
+    - Constraints ensure each library is assigned to only one coffee shop and enforce a fixed number of open coffee shops.
+4. Result Visualization: Displays the locations of selected coffee shops and libraries on a folium map with connecting lines.
